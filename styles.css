@@ -1,1 +1,578 @@
-@charset "UTF-8";@import url(https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap);@import url(https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap);@import url(https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap);header h1,nav ul li{display:inline-flex}#hero h1,#hero p{padding-bottom:10px}#hero,#services2{text-align:center}#about,#hero p,#services,#services2{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji}.principais,.semiprincipais,.sobre{font-weight:inherit}.contato h1,header h1{font-optical-sizing:auto}*{margin:0;box-sizing:border-box}body{font-family:Arial,sans-serif;background-color:#fff;background-image:linear-gradient(to top,#289c2c,transparent 25%)}.whatsapp-button{background-color:#46c655;color:#fff;padding:20px 10px;font-size:1.4em;text-decoration:none;border-radius:50px;margin-left:5px;margin-right:5px}.caixa,header{background-color:#fff}span.icon{margin-left:5px}.container{max-width:1200px;max-height:600px;margin:0 auto;padding:0}#hero h1,.principais2{padding-left:10px;padding-right:10px}header{padding:40px 0;border-bottom:1px solid #919191}header h1{float:left;margin-top:-20px;margin-left:7px;color:#0022e0;font-size:170%;font-weight:1000;font-family:"Crimson Pro",serif;line-height:20px}header img{float:left;width:55px;margin-left:25px;margin-top:-17px}nav ul{float:right;list-style:none;margin-top:-10px;margin-right:20px}nav ul li{margin-left:20px}nav ul li a{color:#303030;text-decoration:none}nav ul li a:hover{color:#009400}#hero{background-image:url(principal5.jpg);background-position:center;background-repeat:no-repeat;background-size:cover;line-height:47px;height:696px;max-width:auto;max-height:100%;align-items:center;justify-content:center;align-content:center}#hero h1{font-size:2.9em;color:#060c5f;text-shadow:2px 2px 4px rgba(255,244,193,.829)}#hero p{font-style:normal;color:#1a1a1a;font-size:1.3em;font-weight:500;text-shadow:2px 1px 3px rgba(255,244,193,.829)}#about,#services{color:#000f64}@media screen and (max-width:600px){#hero h1{margin-left:45px;margin-right:45px;font-size:2.1em}#hero p{margin-left:28px;margin-right:28px;font-size:1.2em}.whatsapp-button{margin-left:35px;margin-right:35px;font-size:1.2em}.semiprincipais,header h1{font-size:25px}header{padding:38px 0}header img{width:50px;margin-left:18px}header h1{margin-left:5px}.caixa,.conteudo,.personalizado{line-height:30px}}.motivo{margin:70px 20px 40px;color:#000f64}.servicos,.sobre{text-align:left;margin-left:38px;margin-right:38px}.principais2{text-align:left}.principais{font-size:2.25em;line-height:2.5rem}.notprincipais{margin-bottom:25px}.semiprincipais{margin-bottom:10px}.semiprincipais2{margin-bottom:19px}.semi{margin-top:60px}.conteudo{font-size:20px;margin-bottom:30px}.conteudo2{margin-bottom:40px}.contato h1,.contato p,.imagem1,.imagem2,.images,.personalizado{text-align:center}.images{display:flex;justify-content:center}.personalizado{font-size:20px;justify-content:center;align-items:center;margin-top:20px}@media screen and (min-width:600px){.images{text-align:center;justify-content:center;align-items:center}.images img{width:90%;margin:0;padding:0}.imagem1 p,.imagem2 p{width:90%}}.imagem1,.imagem2{flex:1}.imagem1 img,.imagem2 img{max-width:100%;display:block;padding:3px}.imagem1 p,.imagem2 p{font-style:oblique;font-size:18px;margin-bottom:10px}.linha{width:30px;border-top:4.5px solid #000f64}.lado{display:flex;align-items:center;margin:65px 50px}.caixa,.contato h1{margin-bottom:25px}.caixa{margin-left:10%;margin-right:10%;padding:1.5% 1.5% 4%;border:2px solid #fff;text-align:left;border-radius:20px;font-size:20px}.color1{box-shadow:8px 5px 10px #47cc57}.color2{box-shadow:8px 5px 10px #fde92e}.color3{box-shadow:8px 5px 10px #147ac4}.contato{margin-top:90px;margin-bottom:160px}.contato h1{color:#fff;font-size:2.1em;font-family:"Noto Sans",sans-serif;font-style:normal;font-weight:500;margin-left:30px;margin-right:30px}.contato p{color:#fff;font-size:1.3em;margin-left:35px;margin-right:35px}.menu-button{display:none}.menu-list{display:block}@media only screen and (max-width:600px){.menu-button{float:right;display:block;background-color:#fff;border:#fff;margin-top:-10px;margin-right:15px}.menu-list{flex-direction:column;text-align:center;float:right;display:none;position:absolute;top:15%;right:0;background-color:#faf174;border:1px solid #f0e766;padding:10px;z-index:1000}.menu-button span{float:top;display:block;width:25px;height:4px;background-color:#272727;margin-bottom:5px;border-radius:4px}.menu-button span:last-child{margin-bottom:0}}
+@charset "UTF-8";
+
+@import url(https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap);
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+strong {
+    font-weight: 600;
+}
+
+header {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #919191;
+    height: 80px
+}
+header div {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+header h1 {
+    color: #0022e0;
+    font-size: 2em;
+    font-weight: 1000;
+    font-family: "Crimson Pro", serif;
+    line-height: 0.9;
+}
+
+header img {
+    width: auto;
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-flex;
+}
+
+nav ul li a {
+    color: #303030;
+    text-decoration: none;
+    padding-inline: 30px;
+    font-size: 1em;
+}
+
+nav ul li a:hover {
+    color: #009400;
+}
+
+#hero h1, #hero p {
+    padding-bottom: 10px;
+}
+
+#hero, #services2 {
+    text-align: center;
+}
+
+#about, #hero p, #services, #services2 {
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.principais, .semiprincipais, .sobre {
+    font-weight: inherit;
+}
+
+.contato h1, header h1 {
+    font-optical-sizing: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fcf8f8;
+    background-image: linear-gradient(to top, #289c2c, transparent 30%);
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;  
+}
+
+.caixa {
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    max-height: 600px;
+    margin: 0 auto;
+    padding: 0;
+    align-items: center;
+}
+
+#hero h1, .principais2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.055), rgba(0, 0, 0, 0.363)), 
+    url('principal5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 47px;
+    height: 696px;
+    max-width: auto;
+    max-height: 100%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+#hero h1 {
+    font-size: 2.9em;
+    color: #0c1483;
+    text-shadow: 2px 2px 4px rgba(255, 244, 193, 0.829);
+}
+
+.p-1 {
+    font-style: normal;
+    color: #1a1a1a;
+    font-size: 1.3em;
+    font-weight: 500;
+    text-shadow: 2px 1px 3px rgba(255, 244, 193, 0.829);
+}
+
+#about, #services {
+    color: #000f64;
+}
+
+.motivo {
+    margin: 70px 20px 40px;
+    color: #000f64;
+}
+
+.servicos, .sobre {
+    text-align: left;
+    margin-left: 38px;
+    margin-right: 38px;
+}
+
+.principais2 {
+    text-align: left;
+}
+
+.principais {
+    font-size: 2.25em;
+    line-height: 2.5rem;
+}
+
+.principais:nth-child(1) {
+    margin-bottom: 28px;
+}
+
+.semiprincipais {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.semiprincipais:nth-child(4) {
+    margin-top: 65px;
+}
+
+.semiprincipais2 {
+    margin-bottom: 19px;
+}
+
+.conteudo {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.conteudo:nth-child(3) {
+    max-width: 100%;
+    text-align: justify;
+    margin-bottom: 45px;
+}
+
+.contato h1, .contato p, .imagem1, .imagem2, .images, .personalizado {
+    text-align: center;
+}
+
+.personalizado {
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.linha {
+    width: 30px;
+    border-top: 4.5px solid #000f64;
+}
+
+.lado {
+    display: flex;
+    align-items: center;
+    margin: 65px 50px;
+}
+
+.caixa, .contato h1 {
+    margin-bottom: 25px;
+}
+
+.caixa {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1.5% 1.5% 4%;
+    border: 2px solid #fff;
+    text-align: left;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.caixa:nth-child(2) {
+    box-shadow: 8px 5px 10px #50e061;
+}
+
+.caixa:nth-child(3) {
+    box-shadow: 8px 5px 10px #ffeb3c;
+}
+
+.caixa:nth-child(4) {
+    box-shadow: 8px 5px 10px #1b93e9;
+}
+
+.contato {
+    margin-top: 90px;
+    margin-bottom: 160px;
+}
+
+.contato h1 {
+    color: #fff;
+    font-size: 2.1em;
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.contato p {
+    color: #fff;
+    font-size: 1.3em;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.menu-button {
+    display: none;
+}
+
+.menu-list {
+    display: block;
+}
+
+#menu:checked ~ .menu-list {
+    display: block;
+}
+
+footer {
+    font-size: 16px;
+    text-align: center;
+    background-color: #012f59;
+    color: #fff;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer .icon {
+    margin: 0 10px;
+}
+
+.div-servico {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.conteudo:nth-child(1) {
+    width: 65%;
+    text-align: justify;
+}
+
+.foto {
+    width: 350px;
+    height: 310px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 8px 5px 10px rgba(59, 59, 59, 0.253);
+    justify-content: flex-end;
+    transition: background-image 0.5s ease;
+}
+
+.foto:nth-child(0){
+    background-image: url('ex11.jpg');
+}
+
+.foto:nth-child(1) {
+    background-image: url('ex21.jpeg');
+}
+
+.foto.justify-end {
+    justify-content: flex-end;
+}
+
+.foto.justify-start {
+    justify-content: flex-start;
+}
+
+.foto button {
+    height: 20%;
+    font-size: 2em;
+    background-color: rgba(255, 255, 255, 0.267);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+
+@media screen and (max-width: 860px) {
+    .div-servico {
+        display: block;
+        text-align: center;
+    }
+    .foto {
+        width: 385px;
+        height: 341px;
+        margin: 0 auto;
+    }
+    .conteudo:nth-child(1){
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #hero {
+        text-align: center;
+    }
+    
+    #hero h1 {
+        margin-left: 45px;
+        margin-right: 45px;
+        font-size: 2.1em;
+    }
+
+    #hero p {
+        margin-left: 28px;
+        margin-right: 28px;
+        font-size: 1.2em;
+    }
+
+    .center-body{
+        margin-left: 35px;
+        margin-right: 35px;
+        font-size: 10px;
+        gap: 0;
+    }
+
+    header img {
+        height: 40px
+    }
+
+    .semiprincipais, header h1 {
+        font-size: 25px;
+    }
+
+    .caixa, .conteudo, .personalizado {
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .menu-button {
+        width: 50px;
+        height: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+    }
+    
+    .menu-button span {
+        display: block;
+        width: 25px;
+        height: 4px;
+        background-color: #333;
+        border-radius: 2px;
+        transition: 0.3s;
+        font-size: 2em;
+    }
+    
+    .menu-list {
+        display: none;
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        list-style: none;
+        right: 5px;
+        top: 70px;
+        text-align: center;
+        border-radius: 7px;
+        z-index: 2;
+        width: calc(100% - 10px);
+        margin: 0 auto;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .menu-list li {
+        padding: 20px;
+        overflow: hidden;
+        display: inline-block;
+    }
+
+    .menu-list li a {
+        color: #012f59;
+        text-decoration: none;
+    }
+
+    .menu-list li:hover {
+        background-color: #f5f5f5;
+    }
+}
+
+@media screen and (max-width:520px) and (min-width: 391px){
+    .foto {
+        width: 297.5px;
+        height: 263.5px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #hero {
+        height: 500px;
+    }
+    
+    .div-servico {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .servicos, .sobre {
+        text-align: left;
+        margin-left: 28px;
+        margin-right: 28px;
+    }
+}
+
+@media screen and (max-width: 390px) and (min-width: 360px){
+    .foto {
+        height: 232.5px;
+        width: 262.5px;
+        margin: 0 auto;
+    }
+
+    .center-body p{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 359px) {
+    .foto {
+        height: 170px;
+        width: 192.5px;
+    }
+}
+
+/*Botão do mapa*/ 
+.center-body {
+    background: #5dd452;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    padding: 10px 10px;
+    border-radius: 45px;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    gap: 0;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.center-body p {
+    font-size: 1.2em;
+    color: white;
+    display: inline;
+    font-weight: 400;
+    margin: 0;
+}
+
+.center-body a {
+    text-decoration: none;
+}
+
+.loader-shape-3 {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+.loader-shape-3:after {
+    width: 30px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: rgba(59, 59, 59, 0.192);
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    margin-top: 15px;
+}
+.loader-shape-3:before {
+    width: 20px;
+    height: 20px;
+    border-radius: 100% 100% 100% 0;
+    box-shadow: 0px 0px 0px 2px rgb(255, 255, 255);
+    animation: anm-SL-3-move 1s linear infinite;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%) rotate(-46deg);
+    margin-top: 20px;
+}
+.loader-shape-3:before,
+.loader-shape-3:after {
+    position: absolute;
+    content: "";
+}
+@keyframes anm-SL-3-move {
+    0% {
+    top: 0;
+    }
+    50% {
+    top: -5px;
+    }
+    100% {
+    top: 0;
+    }
+}

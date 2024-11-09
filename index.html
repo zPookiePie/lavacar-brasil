@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="description" content="O melhor para o seu automotivo">
+    <meta name="keywords" content="lava-car brasil, lava-car, lava rápido, lava-jato, limpeza de automotivos">
     <title>Lava-car Brasil</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <img src="brasil2.jpg" alt="Bandeira do Brasil"> <h1>LAVA-CAR <br>BRASIL</h1> 
+        <div>
+            <img src="brasil2.jpg" alt="logo Bandeira do Brasil">
+            <h1>LAVA-CAR <br> BRASIL</h1>
+        </div> 
         <nav>
             <button class="menu-button" onclick="toggleMenu()">
                 <span></span>
@@ -27,65 +32,59 @@
     <section id="hero">
         <div class="container">
             <h1>A melhor escolha para o seu carro</h1>
-            <p>Servindo bem desde 2006</p>
-            <div class="botao">
-                <a href="https://wa.me/5515998179870" target="_blank" class="whatsapp-button">
-                Agende seu horário via
-                <span class="icon"><img src="zap.png" width="30px" alt="ícone whatsapp"></span></a> 
-            </div>
+            <p class="p-1">Servindo bem desde 2006</p>
+            <button class="center-body">
+                <a href="https://maps.app.goo.gl/wXcEVBpZX2mAaytY6" target="_blank">
+                    <p>Nos veja no mapa</p>
+                <span class="loader-shape-3"></span></a>
+            </button>
         </div>
     </section>
 
-     <main>
+    <main>
         <section id="about">
             <div class="sobre">
                 <div class="lado">
                     <div class="linha"></div><h1 class="principais principais2"> Quem Somos </h1> <div class="linha"></div>
                 </div>
                 <h2 class="semiprincipais semiprincipais2">Seja bem-vindo a Lava-car Brasil. </h2>
-                <p class="conteudo conteudo2">Transformando seu carro em um reflexo de cuidado e sofisticação. Especializados em serviços de limpeza automotiva, desde 2006 no mercado de Itararé-SP, com uma combinação de habilidade, dedicação e os melhores produtos do setor, garantimos que cada carro que entre em nossa instalação saia brilhando e impecável.
+                <p class="conteudo">Transformando seu carro em um reflexo de cuidado e sofisticação. Especializados em serviços de limpeza automotiva, <strong>desde 2006</strong> no mercado de <strong>Itararé-SP</strong>, com uma combinação de habilidade, dedicação e os melhores produtos do setor, garantimos que cada carro que entre em nossa instalação saia brilhando e impecável.
                 </p>
             </div>
         </section>
         <section id="services"> 
             <div class="servicos">
-                <h1 class="principais notprincipais">Nossos serviços</h1>
-                <h2 class="semiprincipais">Limpeza de painel do carro</h2>
-                <p class="conteudo">Oferecemos um serviço completo para manter o coração do seu veículo sempre limpo e eficiente. Na limpeza, removemos sujeira, detritos e resíduos acumulados, com inspeção inicial, proteção de componentes, aplicação de produtos especializados, remoção cuidadosa de sujeira, enxágue e secagem, finalizando com uma inspeção para garantir a limpeza e o bom funcionamento das peças.</p>
-                <div class="images">
-                    <div class="imagem1">
-                        <p>Antes</p>
-                        <img src="ex11.jpeg" alt="Motor sujo">
-                    </div>
-                    <div class="imagem2">
-                        <p>Depois</p>
-                        <img src="ex12.jpeg" alt="Motor limpo">
-                     </div>
-                </div>
-                <h2 class="semiprincipais semi">Desmontagem para limpeza</h2>
-                <p class="conteudo">Nosso serviço de desmontagem de carros oferece uma limpeza profunda com uma solução abrangente para restaurar a higiene e o aspecto interno do seu veículo. Utilizando técnicas especializadas, desmontamos cuidadosamente partes selecionadas do seu carro para garantir uma limpeza completa e minuciosa em áreas de difícil acesso.</p>
-                <div class="images">
-                    <div class="imagem1">
-                        <p>Por dentro</p>
-                        <img src="ex21.jpeg" alt="Carro desmontado">
-                    </div>
-                    <div class="imagem2">
-                        <p>Por fora</p>
-                        <img src="ex22.jpeg" alt="Carro desmontado">
+                <h1 class="principais">Nossos serviços</h1>
+                <h2 class="semiprincipais"> - Limpeza de painel do carro</h2>
+                <div class="div-servico">
+                    <p class="conteudo">Oferecemos um serviço completo para manter o coração do seu veículo sempre limpo e eficiente. Na limpeza, removemos sujeira, detritos e resíduos acumulados, com inspeção inicial, proteção de componentes, aplicação de produtos especializados, remoção cuidadosa de sujeira, enxágue e secagem, finalizando com uma inspeção para garantir a limpeza e o bom funcionamento das peças.</p>
+                    <div class="images">
+                        <div class="foto">
+                            <button class="btn" onclick="MudarFoto(this)">></button>
+                        </div>
                     </div>
                 </div>
-                <p class="personalizado">E muito mais!! Os serviços são personalizados para cada carro, analisando exatamente o que você precisa.</p>
+                <h2 class="semiprincipais"> - Desmontagem para limpeza</h2>
+                <div class="div-servico">
+                    <p class="conteudo">Nosso serviço de desmontagem de carros oferece uma limpeza profunda com uma solução abrangente para restaurar a higiene e o aspecto interno do seu veículo. Utilizando técnicas especializadas, desmontamos cuidadosamente partes selecionadas do seu carro para garantir uma limpeza completa e minuciosa em áreas de difícil acesso.</p>
+                    <div class="images">
+                        <div class="foto">
+                            <button class="btn" onclick="MudarFoto(this)">></button>
+                        </div>
+                    </div>
+                </div>
+                <p class="personalizado">E muito mais!! Os serviços são personalizados para cada carro, analisamos exatamente o que você precisa.</p>
             </div>
         </section>         
         <section id="services2">        
             <h1 class="principais motivo">Por que escolher Lava-car Brasil?</h1>    
-            <div class="caixa color1">
+            <div class="caixa">
                 Com anos de experiência no setor, conhecemos os melhores métodos e produtos para deixar seu carro impecável, tanto por dentro quanto por fora.
             </div>
-            <div class="caixa color2">
+            <div class="caixa">
                 Sabemos que seu tempo é valioso. Por isso, oferecemos um serviço ágil e eficiente, que se adapta à sua agenda. Basta agendar e nós cuidaremos do resto.</div>
             </div>
-            <div class="caixa color3">
+            <div class="caixa">
                 Oferecemos serviços de alta qualidade a preços atrativos. Investir na limpeza regular do seu carro não precisa ser um luxo inacessível.
             </div>
         </section>
@@ -94,7 +93,7 @@
                 <h1>VENHA NOS FAZER UMA VISITA</h1>
                 <p>Rua Coronel João Mariano Ribas - 1595</p>
                 <p>Centro</p>
-                <p>Itararé, SP</p>
+                <p>Itararé - SP</p>
             </div>
         </section>
     </main>
