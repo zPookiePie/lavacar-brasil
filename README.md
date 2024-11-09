@@ -1,6 +1,6 @@
 ## Site para Lava-car Brasil
 
-⚙️ Este projeto foi desenvolvido para um trabalho da faculdade, onde devíamos ajudar alguém da nossa comunidade através do código, e eu escolhi fazer um site para a empresa "Lava-car Brasil"
+⚙️ Este Site foi desenvolvido para um Projeto de Extensão da Faculdade, onde devíamos ajudar alguém da nossa comunidade através da tecnologia, e eu escolhi fazer um site empresarial para a empresa "Lava-car Brasil" localizada em Itararé - SP
 #
 🔍 Trata-se de um site informativo (contêm informações sobre a empresa)
 #
